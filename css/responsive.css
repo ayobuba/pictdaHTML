@@ -57,7 +57,7 @@
 
 @media screen and (min-width: 1600px) {
 	.banner::after {
-		background: #fff url(../images/banner/banner-round-img.jpg) calc(100% - 308px) 370px no-repeat;
+		background: #fff url(../images/gorv.jpg) no-repeat;
 		background-size: 93%;
 		top: -46%;
 		right: -20%;
