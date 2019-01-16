@@ -1670,7 +1670,7 @@ textarea:focus {
 	left: 0;
 	width: 100%;
 	padding: 30px 15px;
-	background-color: transparent;
+	background-color: #ffffff94;
 	z-index: 99998;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
@@ -1851,10 +1851,9 @@ textarea:focus {
 }
 
 .banner::after {
-	background: #fff url(../images/gorv.jpg) no-repeat;
-	background-size: cover;
-	background-position: 50% 35vh;;
-	top: -46%;
+    background: #fff url(../images/gorv.jpg) no-repeat 50% 35vh;
+    background-size: cover;
+    top: -46%;
 	right: -20%;
 	-webkit-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
