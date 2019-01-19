@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+canvas {
+  display: block;
+  vertical-align: bottom
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: url("") no-repeat 50% 50%
+}
+
+#stats {
+  display: none
+}
+
+
+header, header>*{
+  position: relative;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.introloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: 123456789;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20vh;
+  height: 20vh;
+  border: none;
+}
+.spinner-inner {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+}
+
+.num1{
+  animation: infinite-spinning 2.8s linear infinite;
+}
+
+.num2{
+  animation: infinite-spinning 1s linear infinite alternate;
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes infinite-spinning {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.img-bg{
+  max-height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.uk-logo{
+  height: 100px;
+}
+
+.uk-logo img{
+  height: 60px;
+}
+
+.uk-logo {
+  background: #208842;
+  border-radius: 50%;
+  width: 100px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+}
+
+nav .uk-container{
+  position: relative;
+  width: 100%;
+}
+
+.rem{
+  position: absolute;
+  top: 62px;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100px;
+}
+
+.ab1, .ab2{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.uk-navbar-nav li.uk-active a{
+  font-weight: normal;
+}
+
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+  padding: 0 8px;
+  font-size: .8rem;
+  color: #ffffff!important;
+  font-weight: lighter;
+}
+
+#header{
+  min-height: calc((100vh) - 150px);
+}
+
+.theme-color{
+  color: #208842;
+}
+
+.theme-bg{
+  background-color: #208842;
+}
+
+.post-subtitle{
+  position: relative;
+  left: 5px;
+}
+
+.post-subtitle:after{
+  content: '';
+  background: #e0a82f;
+  position: absolute;
+  width: 30%;
+  height: 4px;
+  bottom: -10px;
+  left: 0;
+}
+
+.post-title{
+  font-size: 5rem;
+  line-height: 0.9;
+  font-weight: 600;
+}
+
+.shape2{
+  width: 100%;
+}
+
+#clip-path{
+  position: relative;
+  transform: scale(.98) rotate(2deg);
+  transform-origin: center;
+}
+
+p{
+  font-size: 14px;
+}
+
+.theme-btn{
+  position: relative;
+  background: transparent;
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 13px;
+  width: 160px;
+  z-index: 1;
+}
+
+.theme-btn:before{
+  content: '';
+  z-index: 1;
+  position: absolute;
+  background: #6dbe4b;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  clip-path: url(#clippit);
+}
+
+.theme-btn:after{
+  content: '';
+  z-index: 0;
+  position: absolute;
+  background: #208842;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  clip-path: url(#clippit2);
+}
+
+#nav .uk-navbar-container:not(.uk-navbar-transparent) .ab1, #nav .uk-navbar-container:not(.uk-navbar-transparent) .ab2{
+  display: none;
+}
+#nav .uk-navbar-container:not(.uk-navbar-transparent){
+  background: #208842;
+}
+
+#nav .uk-navbar-container:not(.uk-navbar-transparent){
+  display: flex;
+  min-height: 80px;
+}
+
+#nav .uk-navbar-container:not(.uk-navbar-transparent) .uk-logo{
+  height: 50px;
+  width: 80px;
+}
+
+#nav .uk-navbar-container:not(.uk-navbar-transparent) .uk-logo img{
+  height: 40px;
+  width: 40px;
+}
+
+section{
+  position: relative;
+}
+
+.sectimg1{
+  position: absolute;
+  left: -20%;
+  top: -10%;
+}
+
+.br25{
+  border-radius: 25px;
+}
+
+.uk-card{
+  box-shadow: 0 5px 15px 9px rgba(0,0,0,.08);
+}
+
+.mission, .vision{
+  height: 100px;
+}
+
+.mission-title, .vision-title{
+  position: relative;
+}
+
+.mission-title:after{
+  content: '';
+  height: 5px;
+  width: 70%;
+  position: absolute;
+  left: 0;
+  background: #6dbe4b;
+  bottom: -10px;
+}
+
+.vision-title:after{
+  content: '';
+  height: 5px;
+  width: 70%;
+  bottom: -10px;
+  position: absolute;
+  right: 0;
+  background: #208842;
+  transition: all 1s;
+}
+
+.aim:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #6cba85;
+  transform: rotate(-4deg);
+  transform-origin: 140% 80%;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  border-radius: 25px;
+}
+
+.aim, .aim>*{
+  position: relative;
+  z-index: 10;
+}
