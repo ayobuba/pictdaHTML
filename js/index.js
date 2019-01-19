@@ -1875,6 +1875,26 @@ anime({
 });
 
 anime({
+  targets: '#sveegee path:not(.greenPath2)',
+  opacity: [
+    {value: .1, easing: 'easeOutSine', duration: 500},
+    {value: 1, easing: 'easeInOutQuad', duration: 1200}
+  ],
+  loop: true,
+  delay: anime.stagger(10) // increase delay by 100ms for each elements.
+});
+
+anime({
+  targets: '#tinySVG path',
+  opacity: [
+    {value: .1, easing: 'easeOutSine', duration: 500},
+    {value: 1, easing: 'easeInOutQuad', duration: 1200}
+  ],
+  loop: true,
+  delay: anime.stagger(10) // increase delay by 100ms for each elements.
+});
+
+anime({
   targets: '#nav:not(.uk-sticky-fixed) .rem img',
   translateX: [
     {value: '100%', easing: 'easeOutSine', duration: 500},
