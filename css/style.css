@@ -539,3 +539,7 @@ p.date{
     color: #ffffff;
   }
 }
+
+#media-feed{
+  background: url(../img/feed.png);
+}
