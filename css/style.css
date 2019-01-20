@@ -67,6 +67,15 @@ body{
   animation: infinite-spinning 1s linear infinite alternate;
 }
 
+@keyframes bubbling {
+  from {
+    transform: translateY(10%);
+  }
+  to {
+    transform:  none;
+  }
+}
+
 @keyframes infinite-spinning {
   from {
     transform: rotate(0deg);
@@ -444,6 +453,7 @@ section{
 #gall-blog{
   padding-top: 250px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 
 #gall-blog .cards .uk-card{
@@ -511,11 +521,96 @@ p.date{
   color: #ffffff;
 }
 
+#media-feed{
+  background: url(../img/feed.png);
+  padding: 50px 0;
+}
+
+.tweetFeed{
+  background: #dcdcdc;
+  color: #000;
+  padding: 20px 40px;
+}
+
+.tweetFeed img{
+  height: 46px;
+}
+
+.rr35{
+  border-top-right-radius: 55px;
+}
+
+footer{
+  padding: 50px 0;
+  background: rgba(8, 111, 42, 0.8);
+  position: relative;
+}
+
+.col-white, .col-white *{
+  color: #ffffff;
+}
+
+.col-white a{
+  color: #ffffff;
+}
+.col-white a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.self-cent{
+  align-self: center;
+}
+
+/*FORM Styles*/
+.uk-input, .uk-select, .uk-textarea{
+  border: 2px transparent solid ;
+  border-bottom:solid  1px white ;
+  box-shadow: none!important;
+  background: transparent;
+  color: #ffffff!important;
+}
+
+.uk-form-label {
+  color: white;
+  font-size: .875rem;
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus{
+  border: 2px transparent solid ;
+  border-bottom: solid 2px #6dbe4b ;
+  background: transparent;
+}
+
+
+.uk-input:focus ~ label, :focus ~ label, .uk-textarea:focus ~ label, .uk-select:focus ~ label{
+  color: #6dbe4b!important;
+}
+
+a.lalong{
+  text-decoration: none!important;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.lalong .desk{
+  height: 500px;
+}
+
+.lalong .mob{
+  height: 150px;
+}
+
+
 @media screen and (max-width: 1024px) {
   .ab1, .ab2{
     display: none;
   }
-  
+
   #nav{
     background: #208842;
   }
@@ -530,6 +625,14 @@ p.date{
   }
 }
 
+@media screen and (min-width: 801px) {
+  .desk{
+    display: inline-block;
+  }
+  .mob{
+    display: none;
+  }
+}
 @media screen and (max-width: 800px) {
   .uk-navbar-right .uk-navbar-nav{
     display: none;
@@ -538,8 +641,18 @@ p.date{
     display: flex;
     color: #ffffff;
   }
-}
+  .desk{
+    display: none;
+  }
+  .mob{
+    display: inline-block;
+  }
 
-#media-feed{
-  background: url(../img/feed.png);
+  a.lalong{
+    text-decoration: none!important;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    animation: bubbling 1s linear infinite alternate;
+  }
 }

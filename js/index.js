@@ -27,7 +27,7 @@ var pJS = function(tag_id, params){
         }
       },
       color: {
-        value: '#000'
+        value: '#208842'
       },
       shape: {
         type: 'circle',
@@ -67,7 +67,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#000',
+        color: '#208842',
         opacity: 1,
         width: 1
       },
@@ -1554,7 +1554,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-
+/*COlor config is here*/
 particlesJS('particles-js',
   
   {
@@ -1567,13 +1567,13 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#424242"
+        "value": "#208842"
       },
       "shape": {
         "type": "circle",
         "stroke": {
           "width": 0,
-          "color": "#424242"
+          "color": "#208842"
         },
         "polygon": {
           "nb_sides": 5
@@ -1607,7 +1607,7 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#424242",
+        "color": "#208842",
         "opacity": 0.4,
         "width": 1
       },
