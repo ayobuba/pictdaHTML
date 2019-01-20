@@ -656,3 +656,6 @@ a.lalong{
     animation: bubbling 1s linear infinite alternate;
   }
 }
+.uk-offcanvas-bar {
+  background: #1d7a3b;
+}

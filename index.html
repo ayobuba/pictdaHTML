@@ -85,7 +85,7 @@
                                 <li><a href="#">Contact Us</a></li>
                             </ul>
                             <div class="uk-navbar-item">
-                                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+                                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav-primary"></a>
                             </div>
 
                         </div>
@@ -1217,7 +1217,22 @@
                 </a>
             </div>
         </footer>
+        <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
+                <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                    <li class="uk-active"><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Interventions</a></li>
+                    <li><a href="#">Regulations</a></li>
+                    <li><a href="#">Media Center</a></li>
+                    <li><a href="#">Faqs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+            </div>
+        </div>
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
         <script src="js/jquery.min.js"></script>
