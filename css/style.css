@@ -130,7 +130,7 @@ nav .uk-container {
   .container {
     max-width: 1140px; } }
 .uk-navbar-nav li.uk-active a {
-  font-weight: normal; }
+  font-weight: 600; }
 
 .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
   padding: 0 8px;
@@ -193,7 +193,8 @@ p {
   height: 100%;
   width: 100%;
   left: 0;
-  clip-path: url(#clippit); }
+  clip-path: url(#clippit);
+  box-shadow: -1px -5px 15px white; }
 
 .theme-btn:after {
   content: '';
@@ -224,7 +225,7 @@ p {
   box-shadow: none; }
 
 #nav .uk-navbar-container:not(.uk-navbar-transparent) .uk-logo img {
-  height: 40px; }
+  height: 50px; }
 
 section {
   position: relative; }
@@ -576,7 +577,7 @@ a.lalong {
 .uk-logo {
   background: white;
   width: auto;
-  box-shadow: 0px 0px 10px 8px lightgrey; }
+  box-shadow: 0px 0px 15px -2px #208842c7; }
 
 .br50 {
   border-radius: 50%; }
@@ -667,5 +668,8 @@ a.lalong {
 
 #nav .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-toggle {
   color: #208842 !important; }
+
+#nav ul li a {
+  font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
