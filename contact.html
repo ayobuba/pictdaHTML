@@ -57,7 +57,6 @@
         <div id="particles-js" class="uk-position-fixed"></div>
         <div id="nav"
                 uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
-
             <nav class="uk-navbar-container">
                 <div class="rem">
                     <img class="ab2" src="img/ab2.png" alt="">
@@ -68,17 +67,28 @@
                         <div class="uk-navbar-left">
                             <div class="uk-navbar-nav">
                                 <a class="uk-navbar-item uk-logo" href="#">
-                                    <img src="img/pictda-trans_logo.png" alt="">
+                                    <img class="first" src="img/logo-trans.png" alt="">
+                                    <img class="second" src="img/pictda-trans_logo.png" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="uk-navbar-right">
                             <ul class="uk-navbar-nav">
-                                <li><a href="index.html">Home</a></li>
+                                <li class="uk-active"><a href="index.html">Home</a></li>
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="faq.html">Faqs</a></li>
-                                <li class="uk-active"><a href="contact.html">Contact Us</a></li>
+                                <li>
+                                    <a href="faq.html">Projects</a>
+                                    <div class="uk-navbar-dropdown" uk-dropdown="offset: 0">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active">
+                                                <a href="#">Code Plateau</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                             <div class="uk-navbar-item">
                                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav-primary"></a>
@@ -311,12 +321,12 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <!--<div>
                 <a class="lalong">
                     <img class="desk" src="img/bot.ng.png" alt="">
                     <img class="mob" src="img/bot.ng.png" alt="">
                 </a>
-            </div>
+            </div>-->
         </footer>
         <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
             <div class="uk-offcanvas-bar uk-flex uk-flex-column">

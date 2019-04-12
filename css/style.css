@@ -79,15 +79,19 @@ body {
   z-index: 0; }
 
 .uk-logo {
-  height: 100px; }
-
-.uk-logo img {
-  height: 60px; }
-
-.uk-logo {
-  background: #208842;
-  border-radius: 50%;
-  width: 100px; }
+  height: 120px;
+  border-radius: 50%; }
+  .uk-sticky-below .uk-logo {
+    height: 120px; }
+    .uk-sticky-below .uk-logo .second {
+      display: block;
+      height: 100px; }
+    .uk-sticky-below .uk-logo .first {
+      display: none; }
+  .uk-logo .second {
+    display: none; }
+  .uk-logo img {
+    height: 120px; }
 
 nav {
   display: flex;
@@ -575,9 +579,7 @@ a.lalong {
   color: #ffffff; }
 
 .uk-logo {
-  background: white;
-  width: auto;
-  box-shadow: 0px 0px 15px -2px #208842c7; }
+  width: auto; }
 
 .br50 {
   border-radius: 50%; }
