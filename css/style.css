@@ -680,4 +680,13 @@ a.lalong {
 .uk-accordion-title:focus, .uk-accordion-title:hover, .uk-open .uk-accordion-title {
   color: #208842; }
 
+.line-height {
+  line-height: 30px; }
+
+ol > li {
+  line-height: 30px; }
+
+#dg.padding-top-less {
+  padding-top: 50px; }
+
 /*# sourceMappingURL=style.css.map */
