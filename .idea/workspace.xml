@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e688a96-9240-4fee-9e25-5ca0a06230cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/code-plateau/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/code-plateau/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-plateau/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/code-plateau/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code-plateau/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-plateau/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,44 +18,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog.html">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="167">
+              <caret line="1830" selection-start-line="1830" selection-end-line="1855" selection-end-column="3" />
               <folding>
-                <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#introLoader#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code-plateau/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="332" column="62" selection-start-line="332" selection-start-column="62" selection-end-line="332" selection-end-column="62" />
+            <state relative-caret-position="416">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code-plateau/assets/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="588" column="28" selection-start-line="588" selection-start-column="17" selection-end-line="588" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code-plateau/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="358">
+              <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="51" lean-forward="true" selection-start-line="35" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -137,27 +145,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/uikit.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret column="377" selection-start-column="377" selection-end-column="377" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/uikit.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="2" column="1286" selection-end-line="2" selection-end-column="131176" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faq.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -186,8 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>@key</find>
-      <find>media</find>
       <find>match</find>
       <find>media-</find>
       <find>white</find>
@@ -215,6 +200,8 @@
       <find>team</find>
       <find>projects</find>
       <find>&lt;a href=&quot;faq.html&quot;&gt;Projects&lt;/a&gt;</find>
+      <find>loader</find>
+      <find>introLoader</find>
       <find>get in</find>
     </findStrings>
     <replaceStrings>
@@ -236,13 +223,14 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
-        <option value="$PROJECT_DIR$/code-plateau/assets/css/style.css" />
         <option value="$PROJECT_DIR$/faq.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/code-plateau/assets/js/main.js" />
         <option value="$PROJECT_DIR$/code-plateau/index.html" />
+        <option value="$PROJECT_DIR$/code-plateau/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -264,6 +252,29 @@
             <path>
               <item name="Pictda" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pictda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pictda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pictda" type="462c0819:PsiDirectoryNode" />
+              <item name="code-plateau" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pictda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pictda" type="462c0819:PsiDirectoryNode" />
+              <item name="code-plateau" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pictda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pictda" type="462c0819:PsiDirectoryNode" />
+              <item name="code-plateau" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pictda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pictda" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -334,24 +345,24 @@
       <workItem from="1548524112616" duration="603000" />
       <workItem from="1548531645614" duration="644000" />
       <workItem from="1555071124235" duration="2834000" />
-      <workItem from="1555150714430" duration="18205000" />
+      <workItem from="1555150714430" duration="18573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129947000" />
+    <option name="totallyTimeSpent" value="130315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.32657418" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32657418" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50041085" side_tool="true" weight="0.3983051" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.34955752" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.34955752" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32998565" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32632744" />
@@ -406,17 +417,6 @@
     <entry file="file://$USER_HOME$/Pictures/Camera Roll/SHots/SVG/Asset 3.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="1556" column="22" selection-start-line="1556" selection-start-column="22" selection-end-line="1556" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#47328#47374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/PersJobs/Auth-trustfund/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -428,13 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="69" column="3" lean-forward="true" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="620" lean-forward="true" selection-start-line="620" selection-end-line="620" />
         </state>
       </provider>
     </entry>
@@ -469,13 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="489" column="14" selection-start-line="489" selection-start-column="14" selection-end-line="489" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-plateau/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -560,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="306">
+          <caret line="414" column="28" selection-start-line="414" selection-start-column="28" selection-end-line="414" selection-end-column="28" />
           <folding>
             <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -581,10 +567,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1830" selection-start-line="1830" selection-end-line="1855" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#introLoader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-plateau/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="588" column="28" selection-start-line="588" selection-start-column="17" selection-end-line="588" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="51" lean-forward="true" selection-start-line="35" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code-plateau/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="332" column="62" selection-start-line="332" selection-start-column="62" selection-end-line="332" selection-end-column="62" />
+        <state relative-caret-position="416">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-plateau/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
         </state>
       </provider>
     </entry>

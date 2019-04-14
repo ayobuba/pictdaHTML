@@ -55,3 +55,30 @@
 .main-title span{
     color: #00a49f!important;
 }
+
+.introloader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 123456789; }
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vh;
+    height: 20vh;
+    border: none;
+    animation: none!important;
+}
+
+.spinner-inner {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px; }
