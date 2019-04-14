@@ -51,3 +51,7 @@
 .client-best-comments .best-comment-title{
     font-weight: 400;
 }
+
+.main-title span{
+    color: #00a49f!important;
+}
