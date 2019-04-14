@@ -383,7 +383,13 @@ section {
   -moz-border-radius: 25px;
   border-radius: 25px;
   overflow: hidden;
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center; }
+
+#gall-blog .cards .uk-card a {
+  height: 100%; }
 
 .sectBG2 {
   position: absolute;
