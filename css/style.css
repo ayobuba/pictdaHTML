@@ -431,10 +431,6 @@ p.date {
 .uk-slider-container {
   /*overflow: visible;*/ }
 
-.uk-navbar-toggle {
-  display: none;
-  color: #ffffff; }
-
 #media-feed {
   background: url(../img/feed.png);
   padding: 50px 0; }
@@ -503,9 +499,23 @@ a.lalong {
 .lalong .mob {
   height: 350px; }
 
+.uk-navbar-toggle {
+  display: none !important;
+  color: #ffffff; }
+
 @media screen and (max-width: 1024px) {
   .ab1, .ab2 {
     display: none; }
+
+  .uk-navbar-right .uk-navbar-nav {
+    display: none; }
+
+  .uk-logo img {
+    height: 50px; }
+
+  .uk-navbar-toggle {
+    display: flex !important;
+    color: #ffffff; }
 
   #nav {
     background: #ffffff; }
@@ -528,9 +538,6 @@ a.lalong {
   .mob {
     display: none; } }
 @media screen and (max-width: 800px) {
-  .uk-navbar-right .uk-navbar-nav {
-    display: none; }
-
   .uk-navbar-toggle {
     display: flex;
     color: #ffffff; }
