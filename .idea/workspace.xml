@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e688a96-9240-4fee-9e25-5ca0a06230cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code-plateau/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/code-plateau/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -98,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="246" column="51" selection-start-line="246" selection-start-column="51" selection-end-line="246" selection-end-column="51" />
+            <state relative-caret-position="274">
+              <caret line="252" column="10471" selection-start-line="252" selection-start-column="10471" selection-end-line="252" selection-end-column="10471" />
               <folding>
                 <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -115,7 +114,7 @@
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1555337058087" expanded="true" signature="84538:86189" ph="..." />
+                <marker date="1555339198439" expanded="true" signature="84538:86189" ph="..." />
               </folding>
             </state>
           </provider>
@@ -319,12 +318,12 @@
       <workItem from="1548531645614" duration="644000" />
       <workItem from="1555071124235" duration="2834000" />
       <workItem from="1555150714430" duration="18750000" />
-      <workItem from="1555328756205" duration="6308000" />
+      <workItem from="1555328756205" duration="7268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136800000" />
+    <option name="totallyTimeSpent" value="137760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -556,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="246" column="51" selection-start-line="246" selection-start-column="51" selection-end-line="246" selection-end-column="51" />
+        <state relative-caret-position="274">
+          <caret line="252" column="10471" selection-start-line="252" selection-start-column="10471" selection-end-line="252" selection-end-column="10471" />
           <folding>
             <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -573,7 +572,7 @@
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1555337058087" expanded="true" signature="84538:86189" ph="..." />
+            <marker date="1555339198439" expanded="true" signature="84538:86189" ph="..." />
           </folding>
         </state>
       </provider>
