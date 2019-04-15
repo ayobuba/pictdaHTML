@@ -715,4 +715,8 @@ p {
   font-size: .875rem;
   font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
 
+.theme-color .uk-link, .theme-color a {
+  color: #208842 !important;
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
