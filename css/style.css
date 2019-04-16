@@ -169,9 +169,6 @@ nav .uk-container {
   line-height: 0.9;
   font-weight: 600; }
 
-.shape2 {
-  width: 100%; }
-
 #clip-path {
   position: relative;
   transform: scale(0.98) rotate(2deg);
@@ -721,7 +718,16 @@ p {
 
 #slider {
   margin-right: -40px;
-  margin-left: 20px; }
+  margin-left: 15px;
+  height: 100%;
+  width: 100%;
+  margin-top: 2%; }
+
+#slider .uk-slideshow-items {
+  min-height: 500px !important; }
+  @media (max-width: 960px) {
+    #slider .uk-slideshow-items {
+      min-height: 300px !important; } }
 
 .slider-card {
   margin-right: -40px;
@@ -756,5 +762,17 @@ p {
     display: flex;
     align-items: center;
     color: white; }
+
+#header #Layer_1 {
+  position: absolute;
+  top: -4%;
+  left: 8%; }
+
+.slideHolder {
+  min-height: calc(100vh - 150px); }
+
+.shape2 {
+  width: 100%;
+  min-height: 70vh; }
 
 /*# sourceMappingURL=style.css.map */
