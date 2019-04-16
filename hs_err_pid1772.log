@@ -1,0 +1,164 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Zero Based Compressed Oops mode in which the Java heap is
+#     placed in the first 32GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 32GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=1772, tid=0x00000000000075d4
+#
+# JRE version:  (8.0_202-b39) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.202-b39 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002dd3800):  JavaThread "Unknown thread" [_thread_in_vm, id=30164, stack(0x0000000002c70000,0x0000000002d70000)]
+
+Stack: [0x0000000002c70000,0x0000000002d70000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002dd3800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=30164, stack(0x0000000002c70000,0x0000000002d70000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+heap address: 0x00000006c2000000, size: 4064 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 3
+Compressed class space size: 1073741824 Address: 0x00000007c0000000
+
+Heap:
+ PSYoungGen      total 75776K, used 1300K [0x000000076b580000, 0x0000000770a00000, 0x00000007c0000000)
+  eden space 65024K, 2% used [0x000000076b580000,0x000000076b6c51f8,0x000000076f500000)
+  from space 10752K, 0% used [0x000000076ff80000,0x000000076ff80000,0x0000000770a00000)
+  to   space 10752K, 0% used [0x000000076f500000,0x000000076f500000,0x000000076ff80000)
+ ParOldGen       total 173568K, used 0K [0x00000006c2000000, 0x00000006cc980000, 0x000000076b580000)
+  object space 173568K, 0% used [0x00000006c2000000,0x00000006c2000000,0x00000006cc980000)
+ Metaspace       used 777K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 74K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000012290000,0x0000000012a90000] byte_map_base: 0x000000000ec80000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000065829f30
+ Begin Bits: [0x00000000137e0000, 0x0000000017760000)
+ End Bits:   [0x0000000017760000, 0x000000001b6e0000)
+
+Polling page: 0x0000000001010000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002ed0000, 0x0000000003140000, 0x0000000011ed0000]
+ total_blobs=57 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.027 loading class java/lang/Short
+Event: 0.027 loading class java/lang/Short done
+Event: 0.027 loading class java/lang/Integer
+Event: 0.027 loading class java/lang/Integer done
+Event: 0.027 loading class java/lang/Long
+Event: 0.027 loading class java/lang/Long done
+Event: 0.028 loading class java/lang/NullPointerException
+Event: 0.028 loading class java/lang/NullPointerException done
+Event: 0.028 loading class java/lang/ArithmeticException
+Event: 0.028 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff791770000 - 0x00007ff7917a1000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\java.exe
+0x00007ffc4bef0000 - 0x00007ffc4c0dd000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffc49900000 - 0x00007ffc499b3000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffc48130000 - 0x00007ffc483c3000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffc4b8f0000 - 0x00007ffc4b993000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffc4bc80000 - 0x00007ffc4bd1e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffc4b850000 - 0x00007ffc4b8ee000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffc4b720000 - 0x00007ffc4b842000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffc4b580000 - 0x00007ffc4b717000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffc49080000 - 0x00007ffc490a0000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffc49a50000 - 0x00007ffc49a79000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffc47f90000 - 0x00007ffc4812a000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffc48770000 - 0x00007ffc48810000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffc48f80000 - 0x00007ffc4907c000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffc35130000 - 0x00007ffc353a9000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17763.316_none_05b53be2071f46b6\COMCTL32.dll
+0x00007ffc490f0000 - 0x00007ffc4941d000 	C:\WINDOWS\System32\combase.dll
+0x00007ffc48660000 - 0x00007ffc486de000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffc4ba70000 - 0x00007ffc4ba9e000 	C:\WINDOWS\System32\IMM32.DLL
+0x0000000064f80000 - 0x0000000065052000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\msvcr100.dll
+0x0000000065060000 - 0x00000000658a6000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\server\jvm.dll
+0x00007ffc49a40000 - 0x00007ffc49a48000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffc46a90000 - 0x00007ffc46a99000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffc45460000 - 0x00007ffc45484000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffc41210000 - 0x00007ffc4121a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffc4ba00000 - 0x00007ffc4ba6d000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffc450c0000 - 0x00007ffc450ed000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffc490a0000 - 0x00007ffc490ea000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffc26d40000 - 0x00007ffc26d4f000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\verify.dll
+0x00007ffbf51c0000 - 0x00007ffbf51e9000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\java.dll
+0x00007ffc15410000 - 0x00007ffc15426000 	C:\Program Files\JetBrains\WebStorm 2019.1\jre64\bin\zip.dll
+
+VM Arguments:
+java_command: org.jetbrains.git4idea.nativessh.GitNativeSshAskPassApp Enter passphrase for key '/c/Users/MartianJS/.ssh/id_rsa': 
+java_class_path (initial): C:/Program Files/JetBrains/WebStorm 2019.1/plugins/git4idea/lib/git4idea-rt.jar;C:/Program Files/JetBrains/WebStorm 2019.1/lib/xmlrpc-2.0.1.jar;C:/Program Files/JetBrains/WebStorm 2019.1/lib/commons-codec-1.10.jar;C:/Program Files/JetBrains/WebStorm 2019.1/lib/util.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_181
+USERNAME=MartianJS
+DISPLAY=:0.0
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 17763 (10.0.17763.292)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 94 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 16640504k(3300784k free), swap 32007644k(5788k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.202-b39) for windows-amd64 JRE (1.8.0_202-release-1483-b39), built on Mar  7 2019 22:58:46 by "builduser" with MS VC++ 10.0 (VS2010)
+
+time: Tue Apr 16 11:15:27 2019
+timezone: W. Central Africa Standard Time
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

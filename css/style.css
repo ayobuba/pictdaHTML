@@ -719,4 +719,42 @@ p {
   color: #208842 !important;
   text-decoration: none; }
 
+#slider {
+  margin-right: -40px;
+  margin-left: 20px; }
+
+.slider-card {
+  margin-right: -40px;
+  margin-left: 20px; }
+
+.theme-bg-transl {
+  background: rgba(32, 136, 66, 0.8392156863); }
+
+.width-100 {
+  width: 100%; }
+
+.theme-card {
+  height: 200px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  text-align: left; }
+
+.blue {
+  color: #febe5d; }
+
+.dark {
+  color: #81efe9; }
+
+.bg-white {
+  background: white; }
+
+#gall-blog .uk-slideshow-items {
+  min-height: 310px !important; }
+  #gall-blog .uk-slideshow-items ~ .uk-icon {
+    display: flex;
+    align-items: center;
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */

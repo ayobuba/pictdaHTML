@@ -103,8 +103,8 @@
         </div>
         <header class="container">
             <div id="header" class="uk-width-1-1@s uk-flex-middle" uk-grid>
-                <div class="uk-width-3-5@m uk-flex-last@m">
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                <div class="uk-width-3-5@m uk-flex-last@m uk-grid-collapse" uk-grid>
+                    <div id="slider" class="uk-position-relative uk-visible-toggle uk-width-1-1@m uk-light" tabindex="-1"
                          uk-slideshow="animation: push; autoplay: true">
                         <ul class="uk-slideshow-items">
                             <li>
@@ -127,6 +127,13 @@
                         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
                         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
                     </div>
+                    <a href="./code-plateau/index.html"
+                       class="uk-margin-top theme-bg-transl slider-card uk-width-1-1@m uk-card uk-card-body">
+                        <p class="col-white uk-text-large">Let us make our future now, and let us make our dreams tommorow's
+                            reality with <span class="blue">CODE PLATEAU</span><span
+                                    uk-icon="icon: arrow-right; ratio: 2"
+                            ></span> </p>
+                    </a>
                 </div>
                 <div class="uk-width-2-5@m ptag uk-flex-first@m uk-text-justify">
                     <h2 class="theme-color post-title uk-margin-remove">PICTDA</h2>
@@ -145,8 +152,12 @@
                         capabilities, skillsets, and resources that will add strategic value and increase business productivity within Plateau State Government and the entire state. </p>
                     <p class="phide" hidden>Our goal is to become an enabler of building a knowledge-based economy for Plateau State
                         Government and enhancing productivity through the innovative use of ICT. </p>
-                    <button class="uk-button theme-btn" uk-toggle="target: .phide; animation: uk-animation-fade">
+                    <button class="uk-button phide theme-btn" uk-toggle="target: .phide; animation: uk-animation-fade">
                         <span class="uk-position-relative uk-position-z-index">MORE</span>
+                    </button>
+                    <button class="uk-button phide theme-btn"
+                            uk-toggle="target: .phide; animation: uk-animation-fade" hidden>
+                        <span class="uk-position-relative uk-position-z-index">Less</span>
                     </button>
 
                 </div>
@@ -261,56 +272,100 @@
             <img class="sectBG2" src="img/sectLastBG.png" alt="">
             <div class="container">
                 <h2 class="simple-title theme-color">GALLERY</h2>
-                <div class="uk-child-width-1-5@m cards uk-child-width-1-3@s uk-grid-small" uk-grid uk-lightbox="animation: fade">
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/lalong.jpeg" data-caption="Caption 1">
-                            <img class="uk-width-1-1@s" src="img/lalong.jpeg" alt="">
-                        </a>
+                <div class="uk-child-width-1-3@m cards uk-child-width-1-3@s uk-grid-small" uk-grid>
+                    <div class="uk-card uk-inline-clip uk-transition-toggle">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                             uk-slideshow="animation: push; autoplay: true">
+
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                        <img src="./img/slide1.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                                        <img src="./img/slide11.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                                        <img src="./img/slide12.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+                                <p class="uk-h4 uk-margin-remove">AfricancitiesuponaHill conference.
+                                    @ Jos business school </p>
+                            </div>
+
+                        </div>
+                    </div><div class="uk-card uk-inline-clip uk-transition-toggle">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                             uk-slideshow="animation: push; autoplay: true">
+
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                        <img src="./img/slide2.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                                        <img src="./img/slide21.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                                        <img src="./img/slide22.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                                        <img src="./img/slide23.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                                        <img src="./img/slide24.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+                                <p class="uk-h4 uk-margin-remove">PICTDA meets NITDA</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/presido-gather.png" data-caption="Caption 1">
-                            <img src="img/presido-gather.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/osibanjo.png" data-caption="Caption 1">
-                            <img src="img/osibanjo.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/judge-hammer.png" data-caption="Caption 1">
-                            <img src="img/judge-hammer.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/road-safety.png" data-caption="Caption 1">
-                            <img src="img/road-safety.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/storey-bld.png" data-caption="Caption 1">
-                            <img src="img/storey-bld.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/rally.png" data-caption="Caption 1">
-                            <img src="img/rally.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/unijos.png" data-caption="Caption 1">
-                            <img src="img/unijos.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/presido.png" data-caption="Caption 1">
-                            <img src="img/presido.png" alt="">
-                        </a>
-                    </div>
-                    <div class="uk-card">
-                        <a class="uk-inline" href="img/hammer.png" data-caption="Caption 1">
-                            <img src="img/hammer.png" alt="">
-                        </a>
+                    <div class="uk-card uk-inline-clip uk-transition-toggle">
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+                             uk-slideshow="animation: push; autoplay: true">
+
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                                        <img src="./img/slide3.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                                        <img src="./img/slide31.jpg" alt="" uk-cover>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
+                                <p class="uk-h4 uk-margin-remove">Dubai GITEX 2019</p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <h2 class="simple-title latestNews theme-color">LATEST NEWS</h2>
@@ -395,11 +450,10 @@
                     <div>
                         <h4 class="col-white uk-width-1-1@s uk-margin-medium-bottom">PICTDA HQ</h4>
                         <ul class="uk-list col-white">
-                            <li><span class="uk-margin-small-right" uk-icon="icon: location"></span>Office of the Executive Governor,
-
-                                Plateau State Government House, Little Rayfield, Jos plateau state</li>
-                            <li><span class="uk-margin-small-right" uk-icon="icon: world"></span><a href="https://pictda.plateaustate.gov.ng/">www.pictda.gov.ng</a></li>
-                            <li><span class="uk-margin-small-right" uk-icon="icon: mail"></span><a href="mailto:info@pictda.gov.ng">info@pictda.gov.ng</a></li>
+                            <li><span class="uk-margin-small-right" uk-icon="icon: location"></span>Office of the
+                                Executive Governor, Plateau State Government House, Little Rayfield, Jos plateau state</li>
+                            <li><span class="uk-margin-small-right" uk-icon="icon: world"></span><a href="https://pictda.plateaustate.gov.ng/">pictda.plateaustate.gov.ng</a></li>
+                            <li><span class="uk-margin-small-right" uk-icon="icon: mail"></span><a href="mailto:pictda@plateaustate.gov.ng">pictda@plateaustate.gov.ng</a></li>
                             <li><span class="uk-margin-small-right" uk-icon="icon:  receiver"></span><a
                                     href="tel:+234%20(701)%20380-0040">Call Us: +234 (701) 380-0040</a></li>
                         </ul>
