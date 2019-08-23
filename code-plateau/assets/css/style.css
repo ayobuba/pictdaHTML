@@ -81,7 +81,16 @@
     top: -5px;
     right: -5px;
     bottom: -5px;
-    left: -5px; }
+    left: -5px;
+}
+
 .hr-timeline-content i.icon {
     margin: 0 auto
+}
+
+#clients ul li img{
+    height: 70px;
+    width: 80%;
+    object-fit: contain;
+    text-align: center;
 }
